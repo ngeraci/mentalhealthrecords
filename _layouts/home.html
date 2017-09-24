@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {{ content }}
+
+  <h1 class="page-heading">Posts</h1>
+
+  <div class="blog-index">  
+    {% assign post = site.posts.first %}
+    {% assign content = post.content %}
+    {% include post_detail.html %}
+  </div>
+
+</div>
