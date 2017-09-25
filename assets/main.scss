@@ -1,0 +1,10 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "whiteglass";
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+}
